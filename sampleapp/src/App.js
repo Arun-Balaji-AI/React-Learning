@@ -1,43 +1,27 @@
 import './App.css';
 import React from 'react';
+import { useState } from 'react';
 
 
+function App() {
+  const [counter, setCounter] = useState(0);
 
-// const FetchName = () => {
-//   var name = prompt("Enter Name : ",)
-//   var age = prompt("Enter Age : ",)
-//   var department = prompt("Enter Department : ",)
-//   var native = prompt("Enter Native : ",)
-//   return <>
-//     <PrintDetails name = {name} age = {age} department = {department} native = {native}></PrintDetails>
-//   </>
-// };
-
-
-// const PrintDetails = (props) => {
-//   return <>
-//     <h2>The Name is {props.name}</h2>
-//     <h2>Age is {props.age}</h2>
-//     <h2>Department is {props.department}</h2>
-//     <h2>Native is {props.native}</h2>
-//   </>
-// };
-
-
-function Food() {
-  const order = (food) => {
-    alert(food);
-  };
-
-  let foodItem = prompt("Enter your Order : ",)
-
-  return <>
-    <button onClick={() => order(foodItem)}> The Food you have ordered is..</button>
-  </>
+  return (
+    <>
+      <div className='container'>
+      <button className = "increase"onClick={() => setCounter(counter + 1)}>+</button>
+      <button className = "decrease" onClick={() => setCounter(counter - 1)}>-</button>
+      </div>
+      <div className='reset'>
+      <button onClick={() => setCounter(0)}>Reset</button>
+      </div>
+      <div className='counter'>
+        <h3>{counter}</h3>
+      </div>
+      
+    </>
+  )
 }
 
 
-export default Food;
-
-// export default FetchName;
-
+export default App;

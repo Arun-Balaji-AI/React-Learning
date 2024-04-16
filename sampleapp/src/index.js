@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Food from './App.js';
+import Product from './App.js';
 
 
-const rendered = <Food />
+const rendered = <Product />
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
