@@ -26,7 +26,7 @@ If you're new to React, here are a few resources to help you get started:
 
 While I'm primarily using this repository for personal learning purposes, contributions are always welcome! If you spot any errors, have suggestions for improvement, or want to share additional resources, feel free to open an issue or submit a pull request.
 
-## License
+
 
 
 ---
