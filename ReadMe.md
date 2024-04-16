@@ -28,7 +28,6 @@ While I'm primarily using this repository for personal learning purposes, contri
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
